@@ -1,9 +1,11 @@
 # Loading data  UC Irvine Machine Learning Repository
 # Exploratory Data Analysis
-# Module 4 by Wenzel Pestaño
+# Module 4 by Wenzel PestaÃ±o
 
+## Setting the working directory
 setwd("E:\\R files\\Module 4")
 
+## Getting table from the dataset and setting separator, NA string and classes of column
 reading <- read.table("household_power_consumption.txt", header=TRUE, sep=";", na.strings = "?", colClasses = c('character','character','numeric','numeric','numeric','numeric','numeric','numeric','numeric'))
 
 ## Format date to Type Date
